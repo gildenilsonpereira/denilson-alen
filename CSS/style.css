@@ -124,4 +124,53 @@ section {
     margin-top: 100px;
 }
 
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text-box {
+    flex: 1;
+}
+
+.text-box h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text-box p {
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.image-box {
+    flex: 1;
+    text-align: right;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.botao2 {
+    background-color: rgb(49, 150, 1);
+    color: white;
+    margin-left: 510px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
 /* Pruduto */
