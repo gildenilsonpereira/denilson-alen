@@ -159,15 +159,15 @@ section {
 }
 
 .botao2 {
-    background-color: rgb(49, 150, 1);
+    background: black;
     color: white;
-    margin-left: 510px;
+    margin-left: 500px;
     margin-top: 100px;
     margin-bottom: 50px;
     padding: 10px 30px;
     border: none;
     border-radius: 4px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     cursor: pointer;
 }
@@ -175,43 +175,50 @@ section {
 
 /* Pruduto */
 
-.contact {
-    background: rgb(18, 18, 18);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
-.contact h2 {
-    color: rgb(52, 138, 244);
-    margin-left: 100px;
-    font-weight: 100;
-}
-
-.contact h3 {
-    color: white;
-    font-family: calibri;
-    font-weight: 100;
-    font-size: 16px
-}
 
 /* footer */
 
-footer {
-    color: black;
-    /* margin-left: 230px; */
-    text-align: center;
-    font-family: system-ui;
+nav {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
 }
 
+.navbar-logo2 {
+    margin-right: auto;
+}
 
-footer a {
-    color: black;
+.navbar-logo2 img {
+    height: 50px;
+    margin-left: 100px;
+}
+
+.navbar-links2 {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.navbar-links2 a {
+    margin: 0 10px;
+    color: rgb(103, 103, 103);
+    font-family: calibri;
+    font-size: 18px;
     text-decoration: none;
-    /* margin: 0 10px; */
-    font-family: system-ui;
-    padding-left: 50px;
 }
 
-.align-footer {
-    text-align: center;
+.vertical-line2 {
+    width: 1px;
+    height: 13px;
+    background-color: rgb(103, 103, 103);
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.navbar-social-icons2 {
+    margin-left: auto;
+    margin-right: 50px;
 }
