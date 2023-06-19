@@ -174,3 +174,44 @@ section {
 
 
 /* Pruduto */
+
+.contact {
+    background: rgb(18, 18, 18);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact h2 {
+    color: rgb(52, 138, 244);
+    margin-left: 100px;
+    font-weight: 100;
+}
+
+.contact h3 {
+    color: white;
+    font-family: calibri;
+    font-weight: 100;
+    font-size: 16px
+}
+
+/* footer */
+
+footer {
+    color: black;
+    /* margin-left: 230px; */
+    text-align: center;
+    font-family: system-ui;
+}
+
+
+footer a {
+    color: black;
+    text-decoration: none;
+    /* margin: 0 10px; */
+    font-family: system-ui;
+    padding-left: 50px;
+}
+
+.align-footer {
+    text-align: center;
+}
